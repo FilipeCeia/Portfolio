@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!--Caixa de Icone-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Filipe</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">HOME</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">ABOUT ME</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">TRAINING</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                            </div>
+            <h1>Filipe Nelson Ceia</h1>
+            <h2>Web Developer</h2>
+            <div class="redes">
+                        <a href="https://www.instagram.com/ceiafilipe3/"><i class='bx bxl-instagram'></i></a>
+
+                        <a href="https://www.youtube.com/@NetCodeProviders4084"><i class='bx bxl-youtube'></i></a>
+
+                        <a href="https://api.whatsapp.com/send/?phone=%2B258820935626&text=Ol%C3%A1%21+Gostaria+de+saber+mais+sobre+os+servi%C3%A7os+do+Filipe.&type=phone_number&app_absent=0"><i class='bx bxl-whatsapp'></i></a>
+
+                        <a href="https://t.me/Filipebk"><i class='bx bxl-telegram'></i></a>
+
+                         <a href="https://github.com/FilipeCeia"><i class='bx bxl-github'></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>About Me</h2>
+            <p>Hi I'm <span>Filipe</span>
+                ,a dedicated software and website developer with more than 1 year of experience. Specialized in Python, PHP, MySQL Server, and Ubuntu server administration skills.
+                My passion for technology and developing effective solutions allows me to create high-quality digital products.
+            </p>
+            <p>
+                 I am always looking for new challenges and opportunities to expand my skill set and deliver solutions that exceed expectations.
+                </p>
+
+                <p>With over a year of experience in the industry, I have specialized in Python and PHP, with solid skills in MySQL and Ubuntu server administration. Through my company, NetCode Providers, we are pleased to offer a variety of programming and networking services.
+
+                </p>
+
+                <p>I believe that innovation is the key to solving the challenges of today's digital world. Because of this, we are constantly learning and adapting to the latest trends and technologies to ensure that the services we offer are always ahead of the curve.
+                </p>
+
+                <p>I look forward to helping you and your business achieve your digital goals. Let's turn your ideas into reality together!
+                </p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Personal Information</h3>
+                    <ul>
+                        <li>
+                            <strong>Birthday</strong>
+                            05-02-2022
+                        </li>
+                        <li>
+                            <strong>Telephone</strong>
+                            +258 820935626
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            ceiafilipe3@gmail.com
+                        </li>
+                        
+
+                        <li>
+                            <strong>Work</strong>
+                            <span>Developer</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>I LOVE</h3>
+                    <div class="contenedor-intereses">
+
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>Song</span>
+                        </div>
+
+
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>Ethical Hacking</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>Books</span>
+                        </div>
+
+                        <div class="interes">
+                            <i class="fa-solid fa-code"></i>
+                            <span>Backend</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <button>
+                Download CV <a href="Filipe CV.pdf" class="btn" downlaod><i class="fa-solid fa-download"></i></a>
+                <span class="overlay"> </span>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>71%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>C</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Web Servers</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Ubuntu Server</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Kali Linux</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunication</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Teamwork</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creativite</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Training</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Education</h3>
+                    <div class="item izq">
+                        <h4>IICAEG</h4>
+                        <span class="casa">Web Developer</span>
+                        <span class="fecha">2022 - 2023</span>
+                        <p>Web Applications Programming at the Armando Emílio Guebuza Industrial and Computing Institute</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>IICAEG</h4>
+                        <span class="casa">Support Technician</span>
+                        <span class="fecha">2021 - 2022</span>
+                        <p>IT Support Technician at the Armando Emílio Guebuza Industrial and Computing Institute</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>IICAEG</h4>
+                        <span class="casa">Industrial Electricity</span>
+                        <span class="fecha">2020 - 2021</span>
+                        <p>CV3 in Industrial Electricity at the Armando Emílio Guebuza Industrial and Computing Institute</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+
+                    <div class="item izq">
+                        <h4>Liberdade Secondary School</h4>
+                        <span class="casa">High School</span>
+                        <span class="fecha">2019</span>
+                        <p>High School at Liberdade Secondary School</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experience </h3>
+                    
+                    <div class="item der">
+                        <h4>Backend Developer</h4>
+                        <span class="casa">system for school management.</span>
+                        <span class="fecha">2024</span>
+                        <p>Developed a system for school management.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="item der">
+                        <h4>Backend Developer</h4>
+                        <span class="casa">system for workshop management</span>
+                        <span class="fecha">2023</span>
+                        <p>Developed a system for workshop management.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="item der">
+                        <h4>Backend Developer</h4>
+                        <span class="casa">Help desk system</span>
+                        <span class="fecha">2023</span>
+                        <p>Developed Help desk system for the Ministry of Mineral Resources and Energy</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+
+
+
+                
+
+
+                    <div class="item der">
+                        <h4>Backend Developer</h4>
+                        <span class="casa">ICM</span>
+                        <span class="fecha">2023</span>
+                        <p>Designed, developed, and displayed systems for Transportation and Logistics at the exhibition of the Commercial Institute of Maputop>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                
+                <div class="proyecto">
+                    <img src="img/last.png" alt="">
+                    <div class="overlay">
+                        <h3>System for workshop management</h3>
+                        <a href="https://youtu.be/kC-qolaVXwU?si=PEMa_YUELfGy3Cgc">Live Preview<i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/boock.png" alt="">
+                    <div class="overlay">
+                        <h3>Portfolio</h3>
+                        <a href="https://filipeceia.github.io/Filipe-Ceia-Portfolio/">Preview<i class='bx bx-link-external'></i></a>
+                     
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACT</h2>
+            <div class="fila">
+                <!-- Formulario -->
+         <div class="col">
+    <form action="https://formspree.io/f/xjvnkjyo" method="POST">
+        <input type="text" name="email" placeholder="Email">
+        <input type="text" name="name" placeholder="Name">
+        <input type="text" name="subject" placeholder="Subject">
+        <textarea name="message" id="" cols="30" rows="10" placeholder="Message"></textarea>
+        <button>
+            send<i class="fa-solid fa-paper-plane"></i>
+            <span class="overlay"></span>
+        </button>
+    </form>
+</div>
+      
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+                 <a href="https://www.instagram.com/ceiafilipe3/"><i class='bx bxl-instagram'></i></a>
+
+                        <a href="https://www.youtube.com/@NetCodeProviders4084"><i class='bx bxl-youtube'></i></a>
+
+                        <a href="https://api.whatsapp.com/send/?phone=%2B258820935626&text=Ol%C3%A1%21+Gostaria+de+saber+mais+sobre+os+servi%C3%A7os+do+Filipe.&type=phone_number&app_absent=0"><i class='bx bxl-whatsapp'></i></a>
+
+                        <a href="https://t.me/Filipebk"><i class='bx bxl-telegram'></i></a>
+                        
+                         <a href="https://github.com/FilipeCeia"><i class='bx bxl-github'></i></a>
+        </div>
+        <p> Black-Eyed </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
