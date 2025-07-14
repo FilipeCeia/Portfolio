@@ -1,41 +1,85 @@
-let menuVisible = false;
-//Función que oculta o muestra el menu
-function mostrarOcultarMenu(){
-    if(menuVisible){
-        document.getElementById("nav").classList ="";
-        menuVisible = false;
-    }else{
-        document.getElementById("nav").classList ="responsive";
-        menuVisible = true;
-    }
-}
 
-function seleccionar(){
-    //oculto el menu una vez que selecciono una opcion
-    document.getElementById("nav").classList = "";
-    menuVisible = false;
-}
-//Funcion que aplica las animaciones de las habilidades
-function efectoHabilidades(){
-    var skills = document.getElementById("skills");
-    var distancia_skills = window.innerHeight - skills.getBoundingClientRect().top;
-    if(distancia_skills >= 300){
-        let habilidades = document.getElementsByClassName("progreso");
-        habilidades[0].classList.add("javascript");
-        habilidades[1].classList.add("htmlcss");
-        habilidades[2].classList.add("photoshop");
-        habilidades[3].classList.add("wordpress");
-        habilidades[4].classList.add("drupal");
-        habilidades[5].classList.add("comunicacion");
-        habilidades[6].classList.add("trabajo");
-        habilidades[7].classList.add("creatividad");
-        habilidades[8].classList.add("dedicacion");
-        habilidades[9].classList.add("proyect");
-    }
-}
+        let menuVisible = false;
 
+        //Função que oculta ou mostra o menu
+        function mostrarOcultarMenu(){
+            if(menuVisible){
+                document.getElementById("nav").classList ="";
+                menuVisible = false;
+            }else{
+                document.getElementById("nav").classList ="responsive";
+                menuVisible = true;
+            }
+        }
 
-//detecto el scrolling para aplicar la animacion de la barra de habilidades
-window.onscroll = function(){
-    efectoHabilidades();
-} 
+        function seleccionar(){
+            //oculto o menu uma vez que selecciono uma opção
+            document.getElementById("nav").classList = "";
+            menuVisible = false;
+        }
+
+        //Função que aplica as animações das habilidades
+        function efectoHabilidades(){
+            var skills = document.getElementById("skills");
+            var distancia_skills = window.innerHeight - skills.getBoundingClientRect().top;
+            if(distancia_skills >= 300){
+                let habilidades = document.getElementsByClassName("progreso");
+                
+                // Array com todas as animações das habilidades organizadas por categoria
+                let skillNames = [
+                    // Frontend Frameworks
+                    'nextjs', 'react', 'vue', 'angular',
+                    // Backend Technologies
+                    'nodejs', 'python', 'php', 'csharp',
+                    // Mobile Development
+                    'flutter', 'reactnative', 'pwa', 'ionic',
+                    // Database & Storage
+                    'mysql', 'mongodb', 'redis', 'firebase',
+                    // Real-time & WebSockets
+                    'socketio', 'websockets', 'sse', 'realtime',
+                    // Authentication & Security
+                    'jwt', 'auth0', 'csrf', 'ratelimit',
+                    // Programming Paradigms
+                    'oop', 'functional', 'patterns', 'solid',
+                    // DevOps & Tools
+                    'docker', 'git', 'ubuntu', 'cicd',
+                    // APIs & Integration
+                    'restapi', 'graphql', 'microservices', 'payment',
+                    // Professional Skills
+                    'lideranca', 'gestao', 'resolucao', 'comunicacao'
+                ];
+                
+                // Aplicar animações para todas as habilidades
+                for(let i = 0; i < habilidades.length && i < skillNames.length; i++) {
+                    if(skillNames[i]) {
+                        habilidades[i].classList.add(skillNames[i]);
+                    }
+                }
+            }
+        }
+
+        //detecto o scrolling para aplicar a animação da barra de habilidades
+        window.onscroll = function(){
+            efectoHabilidades();
+        }
+
+        // Animação de entrada dos elementos
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.animation = 'fadeInUp 0.8s ease-out forwards';
+                }
+            });
+        }, observerOptions);
+
+        // Observar seções para animação minha empre
+        document.addEventListener('DOMContentLoaded', () => {
+            const sections = document.querySelectorAll('.contenido-seccion, .categoria, .projeto, .contacto-item');
+            sections.forEach(section => observer.observe(section));
+        });
+    
