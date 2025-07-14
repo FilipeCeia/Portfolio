@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <!--Caixa de Icone-->
+    <!--Caixa de Icone-->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Portfólio - Filipe Nelson Ceia</title>
+     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     <div class="contenedor-header">
@@ -19,12 +20,12 @@
             </div>
             <nav id="nav">
                 <ul>
-                    <li><a href="#inicio" onclick="seleccionar()">HOME</a></li>
-                    <li><a href="#sobremi" onclick="seleccionar()">ABOUT ME</a></li>
-                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
-                    <li><a href="#curriculum" onclick="seleccionar()">TRAINING</a></li>
-                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
-                    <li><a href="#contacto" onclick="seleccionar()">CONTACT</a></li>
+                    <li><a href="#inicio" onclick="seleccionar()">INÍCIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MIM</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">HABILIDADES</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">FORMAÇÃO</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFÓLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
                 </ul>
             </nav>
             <div class="nav-responsive" onclick="mostrarOcultarMenu()">
@@ -33,251 +34,454 @@
         </header>
     </div>
 
-    <!-- SECCION INICIO -->
+    <!-- SECÇÃO INÍCIO -->
     <section id="inicio" class="inicio">
         <div class="contenido-banner">
             <div class="contenedor-img">
-                            </div>
+            </div>
             <h1>Filipe Nelson Ceia</h1>
-            <h2>Web Developer</h2>
+            <h2>Desenvolvedor Full-Stack Senior</h2>
             <div class="redes">
-                        <a href="https://www.instagram.com/ceiafilipe3/"><i class='bx bxl-instagram'></i></a>
-
-                        <a href="https://www.youtube.com/@NetCodeProviders4084"><i class='bx bxl-youtube'></i></a>
-
-                        <a href="https://api.whatsapp.com/send/?phone=%2B258820935626&text=Ol%C3%A1%21+Gostaria+de+saber+mais+sobre+os+servi%C3%A7os+do+Filipe.&type=phone_number&app_absent=0"><i class='bx bxl-whatsapp'></i></a>
-
-                        <a href="https://t.me/Filipebk"><i class='bx bxl-telegram'></i></a>
-
-                         <a href="https://github.com/FilipeCeia"><i class='bx bxl-github'></i></a>
+                <a href="https://www.instagram.com/ceiafilipe3/"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.youtube.com/@NetCodeProviders4084"><i class='bx bxl-youtube'></i></a>
+                <a href="https://api.whatsapp.com/send/?phone=%2B258845329405&text=Ol%C3%A1%21+Gostaria+de+solicitar+um+or%C3%A7amento+para+um+projeto.&type=phone_number&app_absent=0"><i class='bx bxl-whatsapp'></i></a>
+                <a href="https://t.me/Filipebk"><i class='bx bxl-telegram'></i></a>
+                <a href="https://github.com/FilipeCeia"><i class='bx bxl-github'></i></a>
             </div>
         </div>
     </section>
 
-    <!-- SECCION SOBRE MI -->
+    <!-- SECÇÃO SOBRE MIM -->
     <section id="sobremi" class="sobremi">
         <div class="contenido-seccion">
-            <h2>About Me</h2>
-            <p>Hi I'm <span>Filipe</span>
-                ,a dedicated software and website developer with more than 1 year of experience. Specialized in Python, PHP, MySQL Server, and Ubuntu server administration skills.
-                My passion for technology and developing effective solutions allows me to create high-quality digital products.
+            <h2>Sobre Mim</h2>
+            <p>Olá, sou o <span>Filipe</span>, um desenvolvedor Full-Stack Senior com mais de <span>4 anos de experiência</span>. Especializado em desenvolvimento completo com <span>Node.js</span>, <span>Next.js</span>, <span>Python</span>, <span>Flutter</span> e tecnologias modernas de desenvolvimento web e mobile.
+                A minha paixão pela tecnologia e desenvolvimento de soluções eficazes permite-me criar produtos digitais de alta qualidade e seguros.
             </p>
             <p>
-                 I am always looking for new challenges and opportunities to expand my skill set and deliver solutions that exceed expectations.
-                </p>
+                Tenho experiência comprovada no desenvolvimento de <span>sistemas multi-tenancy</span>, aplicações <span>real-time com Socket.IO</span>, <span>PWAs</span>, aplicações móveis com <span>Flutter</span>, e sistemas web complexos com funcionalidades avançadas de segurança e autenticação <span>JWT/OAuth</span>.
+            </p>
 
-                <p>With over a year of experience in the industry, I have specialized in Python and PHP, with solid skills in MySQL and Ubuntu server administration. Through my company, NetCode Providers, we are pleased to offer a variety of programming and networking services.
+            <p>Especializo-me em <span>programação orientada a objectos</span>, arquiteturas <span>MVC</span>, desenvolvimento de <span>APIs RESTful e GraphQL</span>, sistemas de autenticação seguros, <span>microservices</span>, e implementação de funcionalidades como <span>internacionalização (i18n)</span>, gestão de sessões e proteção contra vulnerabilidades web.
+            </p>
 
-                </p>
-
-                <p>I believe that innovation is the key to solving the challenges of today's digital world. Because of this, we are constantly learning and adapting to the latest trends and technologies to ensure that the services we offer are always ahead of the curve.
-                </p>
-
-                <p>I look forward to helping you and your business achieve your digital goals. Let's turn your ideas into reality together!
-                </p>
+            <p>Através das minhas empresas, <span>NetCode Providers e Prolink</span>, ofereço desenvolvimento desde <span>websites responsivos com Next.js</span> até <span>aplicações móveis cross-platform com Flutter</span>, sempre aplicando as melhores práticas de segurança, performance e <span>princípios SOLID</span>.
+            </p>
 
             <div class="fila">
-                <!-- datos personales -->
+                <!-- dados pessoais -->
                 <div class="col">
-                    <h3>Personal Information</h3>
+                    <h3>Informações Pessoais</h3>
                     <ul>
                         <li>
-                            <strong>Birthday</strong>
+                            <strong>Aniversário</strong>
                             05-02-XXXX
                         </li>
                         <li>
-                            <strong>Telephone</strong>
-                            +258 820935626
+                            <strong>Telefone</strong>
+                            +258 845329405
                         </li>
                         <li>
                             <strong>Email</strong>
                             ceiafilipe3@gmail.com
                         </li>
-                        
-
                         <li>
-                            <strong>Work</strong>
-                            <span>Developer</span>
+                            <strong>Trabalho</strong>
+                            <span>Desenvolvedor Full-Stack Senior</span>
+                        </li>
+                        <li>
+                            <strong>Experiência</strong>
+                            <span>4+ anos</span>
                         </li>
                     </ul>
                 </div>
 
-                <!-- intereses -->
+                <!-- interesses -->
                 <div class="col">
-                    <h3>I LOVE</h3>
+                    <h3>PAIXÕES</h3>
                     <div class="contenedor-intereses">
-
                         <div class="interes">
                             <i class="fa-solid fa-headphones"></i>
-                            <span>Song</span>
+                            <span>Música</span>
                         </div>
-
-
                         <div class="interes">
-                            <i class="fa-solid fa-person-hiking"></i>
-                            <span>Ethical Hacking</span>
+                            <i class="fa-solid fa-shield-halved"></i>
+                            <span>Cibersegurança</span>
                         </div>
                         <div class="interes">
                             <i class="fa-solid fa-book"></i>
-                            <span>Books</span>
+                            <span>Tecnologia</span>
                         </div>
-
                         <div class="interes">
                             <i class="fa-solid fa-code"></i>
-                            <span>Backend</span>
+                            <span>Desenvolvimento</span>
                         </div>
-                        
                     </div>
                 </div>
             </div>
             <button>
-                Download CV <a href="Filipe CV.pdf" class="btn" downlaod><i class="fa-solid fa-download"></i></a>
+                Baixar CV <a href="Filipe CV.pdf" class="btn" download><i class="fa-solid fa-download"></i></a>
                 <span class="overlay"> </span>
             </button>
         </div>
     </section>
 
-    <!-- SECCION SKILLS -->
+    <!-- SECÇÃO HABILIDADES -->
     <section class="skills" id="skills">
         <div class="contenido-seccion">
-            <h2>Skills</h2>
-            <div class="fila">
-                <!-- Technical Skill -->
-                <div class="col">
-                    <h3>Technical Skills</h3>
+            <h2>Stack Tecnológico Full-Stack</h2>
+            
+            <!-- Frontend Frameworks -->
+            <div class="categoria">
+                <h3><i class="fab fa-react"></i> Frontend Frameworks</h3>
+                <div class="skills-grid">
                     <div class="skill">
-                        <span>Javascript</span>
+                        <span>Next.js</span>
                         <div class="barra-skill">
-                            <div class="progreso">
-                                <span>65%</span>
-                            </div>
+                            <div class="progreso"><span>88%</span></div>
                         </div>
                     </div>
                     <div class="skill">
-                        <span>Python</span>
+                        <span>React.js</span>
                         <div class="barra-skill">
-                            <div class="progreso">
-                                <span>71%</span>
-                            </div>
+                            <div class="progreso"><span>85%</span></div>
                         </div>
                     </div>
                     <div class="skill">
-                        <span>HTML & CSS</span>
+                        <span>Vue.js</span>
                         <div class="barra-skill">
-                            <div class="progreso">
-                                <span>89%</span>
-                            </div>
+                            <div class="progreso"><span>75%</span></div>
                         </div>
                     </div>
                     <div class="skill">
-                        <span>C</span>
+                        <span>Angular</span>
                         <div class="barra-skill">
-                            <div class="progreso">
-                                <span>95%</span>
-                            </div>
+                            <div class="progreso"><span>70%</span></div>
                         </div>
                     </div>
-                    <div class="skill">
-                        <span>Web Servers</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>94%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Ubuntu Server</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>75%</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="skill">
-                        <span>Kali Linux</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>55%</span>
-                            </div>
-                        </div>
-                    </div>
-
-
                 </div>
-                <!-- Professional Skills -->
-                <div class="col">
-                    <h3>Professional Skills</h3>
+            </div>
+
+            <!-- Backend Technologies -->
+            <div class="categoria">
+                <h3><i class="fas fa-server"></i> Backend Technologies</h3>
+                <div class="skills-grid">
                     <div class="skill">
-                        <span>Comunication</span>
+                        <span>Node.js & Express</span>
                         <div class="barra-skill">
-                            <div class="progreso">
-                                <span>80%</span>
-                            </div>
+                            <div class="progreso"><span>92%</span></div>
                         </div>
                     </div>
                     <div class="skill">
-                        <span>Teamwork</span>
+                        <span>Python & Django/FastAPI</span>
                         <div class="barra-skill">
-                            <div class="progreso">
-                                <span>70%</span>
-                            </div>
+                            <div class="progreso"><span>88%</span></div>
                         </div>
                     </div>
                     <div class="skill">
-                        <span>Creativite</span>
+                        <span>PHP & Laravel</span>
                         <div class="barra-skill">
-                            <div class="progreso">
-                                <span>99%</span>
-                            </div>
+                            <div class="progreso"><span>85%</span></div>
                         </div>
                     </div>
-        
+                    <div class="skill">
+                        <span>C# & .NET</span>
+                        <div class="barra-skill">
+                            <div class="progreso"><span>78%</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mobile Development -->
+            <div class="categoria">
+                <h3><i class="fas fa-mobile-alt"></i> Desenvolvimento Mobile</h3>
+                <div class="skills-grid">
+                    <div class="skill">
+                        <span>Flutter & Dart</span>
+                        <div class="barra-skill">
+                            <div class="progreso"><span>85%</span></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>React Native</span>
+                        <div class="barra-skill">
+                            <div class="progreso"><span>80%</span></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Progressive Web Apps</span>
+                        <div class="barra-skill">
+                            <div class="progreso"><span>88%</span></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Ionic</span>
+                        <div class="barra-skill">
+                            <div class="progreso"><span>75%</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Database & Storage -->
+            <div class="categoria">
+                <h3><i class="fas fa-database"></i> Base de Dados & Storage</h3>
+                <div class="skills-grid">
+                    <div class="skill">
+                        <span>MySQL & PostgreSQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso"><span>90%</span></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>MongoDB & NoSQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso"><span>85%</span></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Redis & Caching</span>
+                        <div class="barra-skill">
+                            <div class="progreso"><span>82%</span></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Firebase & Supabase</span>
+                        <div class="barra-skill">
+                            <div class="progreso"><span>80%</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Real-time & WebSockets -->
+            <div class="categoria">
+                <h3><i class="fas fa-wifi"></i> Real-time & WebSockets</h3>
+                <div class="skills-grid">
+                    <div class="skill">
+                        <span>Socket.IO</span>
+                        <div class="barra-skill">
+                            <div class="progreso"><span>88%</span></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>WebSockets</span>
+                        <div class="barra-skill">
+                            <div class="progreso"><span>85%</span></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Server-Sent Events</span>
+                        <div class="barra-skill">
+                            <div class="progreso"><span>80%</span></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Real-time Chat Systems</span>
+                        <div class="barra-skill">
+                            <div class="progreso"><span>90%</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Authentication & Security -->
+            <div class="categoria">
+                <h3><i class="fas fa-shield-alt"></i> Autenticação & Segurança</h3>
+                <div class="skills-grid">
+                    <div class="skill">
+                        <span>JWT & OAuth 2.0</span>
+                        <div class="barra-skill">
+                            <div class="progreso"><span>92%</span></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Auth0 & Firebase Auth</span>
+                        <div class="barra-skill">
+                            <div class="progreso"><span>85%</span></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>CSRF & XSS Protection</span>
+                        <div class="barra-skill">
+                            <div class="progreso"><span>90%</span></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Rate Limiting & Helmet</span>
+                        <div class="barra-skill">
+                            <div class="progreso"><span>88%</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Programming Paradigms -->
+            <div class="categoria">
+                <h3><i class="fas fa-code-branch"></i> Paradigmas de Programação</h3>
+                <div class="skills-grid">
+                    <div class="skill">
+                        <span>Programação Orientada a Objectos</span>
+                        <div class="barra-skill">
+                            <div class="progreso"><span>92%</span></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Programação Funcional</span>
+                        <div class="barra-skill">
+                            <div class="progreso"><span>80%</span></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Design Patterns</span>
+                        <div class="barra-skill">
+                            <div class="progreso"><span>85%</span></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>SOLID Principles</span>
+                        <div class="barra-skill">
+                            <div class="progreso"><span>88%</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- DevOps & Tools -->
+            <div class="categoria">
+                <h3><i class="fas fa-tools"></i> DevOps & Ferramentas</h3>
+                <div class="skills-grid">
+                    <div class="skill">
+                        <span>Docker & Containerização</span>
+                        <div class="barra-skill">
+                            <div class="progreso"><span>82%</span></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Git & GitHub/GitLab</span>
+                        <div class="barra-skill">
+                            <div class="progreso"><span>95%</span></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Ubuntu Server & Linux</span>
+                        <div class="barra-skill">
+                            <div class="progreso"><span>85%</span></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>CI/CD Pipelines</span>
+                        <div class="barra-skill">
+                            <div class="progreso"><span>78%</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- APIs & Integration -->
+            <div class="categoria">
+                <h3><i class="fas fa-plug"></i> APIs & Integração</h3>
+                <div class="skills-grid">
+                    <div class="skill">
+                        <span>RESTful APIs</span>
+                        <div class="barra-skill">
+                            <div class="progreso"><span>95%</span></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>GraphQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso"><span>80%</span></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Microservices</span>
+                        <div class="barra-skill">
+                            <div class="progreso"><span>82%</span></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Payment APIs Integration</span>
+                        <div class="barra-skill">
+                            <div class="progreso"><span>88%</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Habilidades Profissionais -->
+            <div class="categoria">
+                <h3><i class="fas fa-users"></i> Habilidades Profissionais</h3>
+                <div class="skills-grid">
+                    <div class="skill">
+                        <span>Liderança Técnica</span>
+                        <div class="barra-skill">
+                            <div class="progreso"><span>85%</span></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Gestão de Projectos</span>
+                        <div class="barra-skill">
+                            <div class="progreso"><span>80%</span></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Resolução de Problemas</span>
+                        <div class="barra-skill">
+                            <div class="progreso"><span>95%</span></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Comunicação Técnica</span>
+                        <div class="barra-skill">
+                            <div class="progreso"><span>88%</span></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- SECCION CURRICULUM -->
+    <!-- SECÇÃO FORMAÇÃO -->
     <section id="curriculum" class="curriculum">
         <div class="contenido-seccion">
-            <h2>Training</h2>
+            <h2>Formação & Experiência</h2>
             <div class="fila">
                 <div class="col izquierda">
-                    <h3>Education</h3>
+                    <h3>Educação</h3>
                     <div class="item izq">
                         <h4>IICAEG</h4>
-                        <span class="casa">Web Developer</span>
+                        <span class="casa">Desenvolvedor Web</span>
                         <span class="fecha">2022 - 2023</span>
-                        <p>Web Applications Programming at the Armando Emílio Guebuza Industrial and Computing Institute</p>
+                        <p>Programação de Aplicações Web no Instituto Industrial e de Computação Armando Emílio Guebuza</p>
                         <div class="conectori">
                             <div class="circuloi"></div>
                         </div>
                     </div>
                     <div class="item izq">
                         <h4>IICAEG</h4>
-                        <span class="casa">Support Technician</span>
+                        <span class="casa">Técnico de Suporte</span>
                         <span class="fecha">2021 - 2022</span>
-                        <p>IT Support Technician at the Armando Emílio Guebuza Industrial and Computing Institute</p>
+                        <p>Técnico de Suporte Informático no Instituto Industrial e de Computação Armando Emílio Guebuza</p>
                         <div class="conectori">
                             <div class="circuloi"></div>
                         </div>
                     </div>
                     <div class="item izq">
                         <h4>IICAEG</h4>
-                        <span class="casa">Industrial Electricity</span>
+                        <span class="casa">Electricidade Industrial</span>
                         <span class="fecha">2020 - 2021</span>
-                        <p>CV3 in Industrial Electricity at the Armando Emílio Guebuza Industrial and Computing Institute</p>
+                        <p>CV3 em Electricidade Industrial no Instituto Industrial e de Computação Armando Emílio Guebuza</p>
                         <div class="conectori">
                             <div class="circuloi"></div>
                         </div>
                     </div>
-
                     <div class="item izq">
-                        <h4>Liberdade Secondary School</h4>
-                        <span class="casa">High School</span>
+                        <h4>Escola Secundária da Liberdade</h4>
+                        <span class="casa">Ensino Secundário</span>
                         <span class="fecha">2019</span>
-                        <p>High School at Liberdade Secondary School</p>
+                        <p>Ensino Secundário na Escola Secundária da Liberdade</p>
                         <div class="conectori">
                             <div class="circuloi"></div>
                         </div>
@@ -285,110 +489,181 @@
                 </div>
 
                 <div class="col derecha">
-                    <h3>Experience </h3>
+                    <h3>Experiência Profissional</h3>
                     
                     <div class="item der">
-                        <h4>Backend Developer</h4>
-                        <span class="casa">system for school management.</span>
+                        <h4>Desenvolvedor Full-Stack</h4>
+                        <span class="casa">Website Institucional IICAEG</span>
                         <span class="fecha">2024</span>
-                        <p>Developed a system for school management.</p>
+                        <p>Desenvolvi o website completo para o Instituto Industrial e de Computação Armando Emílio Guebuza com CMS avançado. <strong>Peça demonstração!</strong></p>
                         <div class="conectord">
                             <div class="circulod"></div>
                         </div>
                     </div>
-
-
 
                     <div class="item der">
-                        <h4>Backend Developer</h4>
-                        <span class="casa">system for workshop management</span>
-                        <span class="fecha">2023</span>
-                        <p>Developed a system for workshop management.</p>
+                        <h4>Desenvolvedor Backend</h4>
+                        <span class="casa">Sistema de Bulk SMS</span>
+                        <span class="fecha">2024</span>
+                        <p>Sistema completo para envio em massa de SMS com gestão de contactos, campanhas e relatórios detalhados. <strong>Peça demonstração!</strong></p>
                         <div class="conectord">
                             <div class="circulod"></div>
                         </div>
                     </div>
-
-
-
 
                     <div class="item der">
-                        <h4>Backend Developer</h4>
-                        <span class="casa">Help desk system</span>
-                        <span class="fecha">2023</span>
-                        <p>Developed Help desk system for the Ministry of Mineral Resources and Energy</p>
+                        <h4>Desenvolvedor Full-Stack</h4>
+                        <span class="casa">Sistema de Chat Empresarial</span>
+                        <span class="fecha">2024</span>
+                        <p>Sistema de chat complexo com partilha de conversas, transferência de atendimento, conversas em grupo e integração com CRM. <strong>Peça demonstração!</strong></p>
                         <div class="conectord">
                             <div class="circulod"></div>
                         </div>
                     </div>
-
-
-
-
-                
-
 
                     <div class="item der">
-                        <h4>Backend Developer</h4>
-                        <span class="casa">ICM</span>
+                        <h4>Desenvolvedor de Integração</h4>
+                        <span class="casa">Sistema de Integração Credelec</span>
                         <span class="fecha">2023</span>
-                        <p>Designed, developed, and displayed systems for Transportation and Logistics at the exhibition of the Commercial Institute of Maputop>
+                        <p>Sistema de integração com API de compra de credelec para automatização de vendas e gestão de transações. <strong>Peça demonstração!</strong></p>
                         <div class="conectord">
                             <div class="circulod"></div>
                         </div>
                     </div>
 
-                    
+                    <div class="item der">
+                        <h4>Desenvolvedor Backend</h4>
+                        <span class="casa">Sistema de Gestão Escolar Multi-Tenancy</span>
+                        <span class="fecha">2023-2024</span>
+                        <p>Sistema completo para gestão de múltiplas escolas com arquitectura multi-tenant segura.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- SECCION PORTFOLIO -->
+    <!-- SECÇÃO PORTFÓLIO -->
     <section id="portfolio" class="portfolio">
         <div class="contenido-seccion">
-            <h2>PORTFOLIO</h2>
+            <h2>PORTFÓLIO</h2>
             <div class="galeria">
-                
-                <div class="proyecto">
+                <div class="projeto">
                     <img src="img/last.png" alt="">
                     <div class="overlay">
-                        <h3>System for workshop management</h3>
-                        <a href="https://youtu.be/kC-qolaVXwU?si=PEMa_YUELfGy3Cgc">Live Preview<i class='bx bx-link-external'></i></a>
+                        <h3>Sistema de Gestão de Oficinas</h3>
+                        <a href="https://youtu.be/kC-qolaVXwU?si=PEMa_YUELfGy3Cgc">Ver Demonstração<i class='bx bx-link-external'></i></a>
                     </div>
                 </div>
-                <div class="proyecto">
+                <div class="projeto">
                     <img src="img/boock.png" alt="">
                     <div class="overlay">
-                        <h3>Portfolio</h3>
-                        <a href="https://filipeceia.github.io/Filipe-Ceia-Portfolio/">Preview<i class='bx bx-link-external'></i></a>
-                     
+                        <h3>Portfólio Pessoal</h3>
+                        <a href="https://filipeceia.github.io/Filipe-Ceia-Portfolio/">Ver Online<i class='bx bx-link-external'></i></a>
                     </div>
                 </div>
-                
+            </div>
+            
+            <div class="projetos-desenvolvidos">
+                <h3>Projectos Desenvolvidos</h3>
+                <div class="projeto-item">
+                    <strong>🏢 Website Institucional IICAEG</strong> - Plataforma completa com CMS, gestão de conteúdos e painel administrativo
+                </div>
+                <div class="projeto-item">
+                    <strong>📱 Sistema de Bulk SMS</strong> - Envio em massa com gestão de contactos e relatórios detalhados
+                </div>
+                <div class="projeto-item">
+                    <strong>💬 Sistema de Chat Empresarial</strong> - Chat avançado com transferência de atendimento e conversas em grupo
+                </div>
+                <div class="projeto-item">
+                    <strong>🔌 Integração Credelec</strong> - Automatização de compras e gestão de transações
+                </div>
+                <div class="projeto-item">
+                    <strong>🏫 Gestão Escolar Multi-Tenancy</strong> - Sistema para múltiplas escolas com arquitectura segura
+                </div>
+                <div class="call-to-action">
+                    <strong>🎯 Entre em contacto para solicitar demonstrações detalhadas de qualquer projecto!</strong>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- SECCION CONTACTO -->
+    <!-- SECÇÃO CONTACTO -->
     <section id="contacto" class="contacto">
         <div class="contenido-seccion">
-            <h2>CONTACT</h2>
-            <div class="fila">
-                <!-- Formulario -->
-         <div class="col">
-    <form action="https://formspree.io/f/xjvnkjyo" method="POST">
-        <input type="text" name="email" placeholder="Email">
-        <input type="text" name="name" placeholder="Name">
-        <input type="text" name="subject" placeholder="Subject">
-        <textarea name="message" id="" cols="30" rows="10" placeholder="Message"></textarea>
-        <button>
-            send<i class="fa-solid fa-paper-plane"></i>
-            <span class="overlay"></span>
-        </button>
-    </form>
-</div>
-      
+            <h2>CONTACTO</h2>
+            
+            <div class="info-contacto">
+                <div class="contacto-item">
+                    <i class="fab fa-whatsapp"></i>
+                    <h3>WhatsApp</h3>
+                    <a href="https://api.whatsapp.com/send/?phone=%2B258845329405&text=Ol%C3%A1%21+Gostaria+de+solicitar+um+or%C3%A7amento+para+um+projeto.&type=phone_number&app_absent=0">+258 845329405</a>
+                    <p style="margin-top: 10px; font-size: 14px;">Clique para conversar directamente</p>
+                </div>
+                
+                <div class="contacto-item">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <a href="mailto:ceiafilipe3@gmail.com">ceiafilipe3@gmail.com</a>
+                    <p style="margin-top: 10px; font-size: 14px;">Resposta em até 24h</p>
+                </div>
+                
+                <div class="contacto-item">
+                    <i class="fab fa-instagram"></i>
+                    <h3>Instagram</h3>
+                    <a href="https://www.instagram.com/ceiafilipe3/">@ceiafilipe3</a>
+                    <p style="margin-top: 10px; font-size: 14px;">Siga para updates</p>
+                </div>
+            </div>
+
+            <div class="servicos">
+                <h3>🚀 Solicite Orçamento Para:</h3>
+                <p style="margin-bottom: 30px; font-size: 18px;">Entre em contacto via WhatsApp ou email para solicitar orçamentos personalizados</p>
+                
+                <div class="servicos-grid">
+                    <div class="servico-item">
+                        <i class="fab fa-react"></i>
+                        <h4>Aplicações Next.js/React</h4>
+                        <p>SPAs e SSR com performance otimizada</p>
+                    </div>
+                    <div class="servico-item">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h4>Apps Flutter</h4>
+                        <p>Aplicações mobile cross-platform</p>
+                    </div>
+                    <div class="servico-item">
+                        <i class="fas fa-server"></i>
+                        <h4>APIs Node.js</h4>
+                        <p>Backend escalável com Express.js</p>
+                    </div>
+                    <div class="servico-item">
+                        <i class="fas fa-wifi"></i>
+                        <h4>Sistemas Real-time</h4>
+                        <p>Chat e notificações com Socket.IO</p>
+                    </div>
+                    <div class="servico-item">
+                        <i class="fas fa-lock"></i>
+                        <h4>Autenticação JWT</h4>
+                        <p>Sistemas seguros com OAuth 2.0</p>
+                    </div>
+                    <div class="servico-item">
+                        <i class="fas fa-database"></i>
+                        <h4>Multi-Tenancy</h4>
+                        <p>Arquitecturas escaláveis e seguras</p>
+                    </div>
+                    <div class="servico-item">
+                        <i class="fab fa-docker"></i>
+                        <h4>DevOps & Deploy</h4>
+                        <p>Docker e CI/CD pipelines</p>
+                    </div>
+                    <div class="servico-item">
+                        <i class="fas fa-code-branch"></i>
+                        <h4>Microservices</h4>
+                        <p>Arquitecturas distribuídas modernas</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -399,19 +674,17 @@
             <i class="fa-solid fa-angles-up"></i>
         </a>
         <div class="redes">
-                 <a href="https://www.instagram.com/ceiafilipe3/"><i class='bx bxl-instagram'></i></a>
-
-                        <a href="https://www.youtube.com/@NetCodeProviders4084"><i class='bx bxl-youtube'></i></a>
-
-                        <a href="https://api.whatsapp.com/send/?phone=%2B258820935626&text=Ol%C3%A1%21+Gostaria+de+saber+mais+sobre+os+servi%C3%A7os+do+Filipe.&type=phone_number&app_absent=0"><i class='bx bxl-whatsapp'></i></a>
-
-                        <a href="https://t.me/Filipebk"><i class='bx bxl-telegram'></i></a>
-                        
-                         <a href="https://github.com/FilipeCeia"><i class='bx bxl-github'></i></a>
+            <a href="https://www.instagram.com/ceiafilipe3/"><i class='bx bxl-instagram'></i></a>
+            <a href="https://www.youtube.com/@NetCodeProviders4084"><i class='bx bxl-youtube'></i></a>
+            <a href="https://api.whatsapp.com/send/?phone=%2B258845329405&text=Ol%C3%A1%21+Gostaria+de+solicitar+um+or%C3%A7amento+para+um+projeto.&type=phone_number&app_absent=0"><i class='bx bxl-whatsapp'></i></a>
+            <a href="https://t.me/Filipebk"><i class='bx bxl-telegram'></i></a>
+            <a href="https://github.com/FilipeCeia"><i class='bx bxl-github'></i></a>
         </div>
-        <p> Black-Eyed </p>
+        <p>NetCode Providers</p>
     </footer>
 
     <script src="script.js"></script>
+
+
 </body>
 </html>
